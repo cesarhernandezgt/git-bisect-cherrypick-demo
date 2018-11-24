@@ -41,4 +41,9 @@ public class AppTest {
     public void multiplicarNegativoTest() {
         assertTrue(App.multiplicar(-1, 3) == -3);
     }
+
+    @Test //prueba gregada en commit J
+    public void divisionNegativoTest() {
+        assertTrue(App.dividir(-10, 5) == -2);
+    }
 }
