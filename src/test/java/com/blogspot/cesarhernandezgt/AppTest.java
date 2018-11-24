@@ -46,4 +46,12 @@ public class AppTest {
     public void divisionNegativoTest() {
         assertTrue(App.dividir(-10, 5) == -2);
     }
+
+    //prueba gregada en commit K
+    //Esta prueba falla debido a un error de regresion que
+    //un commit agrego a la division dentro de cero.
+    @Test (expected = java.lang.ArithmeticException.class)
+    public void divisionEntreCeroTest() {
+        assertTrue(App.dividir(10, 0) == -2);
+    }
 }
