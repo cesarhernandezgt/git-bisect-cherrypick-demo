@@ -31,4 +31,9 @@ public class AppTest {
     public void sumarNegativoTest() {
         assertTrue(App.sumar(-2, 1) == -1);
     }
+
+    @Test //prueba gregada en commit H
+    public void restarNegativoTest() {
+        assertTrue(App.restar(-1, 1) == -2);
+    }
 }
