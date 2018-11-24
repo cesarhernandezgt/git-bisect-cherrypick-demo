@@ -27,4 +27,8 @@ public class AppTest {
         assertTrue(App.dividir(8, 2) == 4);
     }
 
+    @Test //prueba gregada en commit G
+    public void sumarNegativoTest() {
+        assertTrue(App.sumar(-2, 1) == -1);
+    }
 }
