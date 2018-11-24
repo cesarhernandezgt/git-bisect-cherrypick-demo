@@ -36,4 +36,9 @@ public class AppTest {
     public void restarNegativoTest() {
         assertTrue(App.restar(-1, 1) == -2);
     }
+
+    @Test //prueba gregada en commit I
+    public void multiplicarNegativoTest() {
+        assertTrue(App.multiplicar(-1, 3) == -3);
+    }
 }
